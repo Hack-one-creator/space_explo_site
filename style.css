@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+h1 {
+	font-size: 50px;
+	text-shadow: 7px -7px 3px black;
+}
+
+#hero {
+	background-image: url("img/giphy.gif");
+	background-size: auto;
+	border-radius: 70px;
+	padding-bottom: 15px;
+}
+
+@font-face {
+	font-family: Watch_dogs;
+	src: url("fonts/HACKED.ttf");
+}
+
+.font {
+	font-family: 'Watch_dogs', sans-serif;
+	font-weight: bolder;
+	color: #6f7987;
+}
+
+.btn {
+	font-size: 30px;
+	border-radius: 30px;
+	padding: 6px 12px;
+	background: #212934;
+	border: none;
+	text-shadow: 3px -3px 3px black;
+
+}
+
+.underline {
+	text-underline-offset: 5px;
+}
+
+#logo_image {
+	width: 200px;
+}
